@@ -1,0 +1,56 @@
+/* main-image */
+div.row > div.col-sm-8 > div > p.font-list > .img{
+    float: left;
+    width: 380px;
+    border-radius: 10px;
+    margin: 0px 20px 20px 0px;
+}
+/* label and margin image */
+body > div.container > div > div.col-sm-8 > div:nth-child(2) > div > span.badge > img{
+    height: 15px;
+    width: 15px;
+}
+body > div.container > div > div.col-sm-8 > div:nth-child(2) > div > span:nth-child(1) > img{
+    height: 20px;
+    width: 20px;
+    margin-right: 100px;
+}
+/* list style */
+.font-list{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+div.col-sm-8 > div:nth-child(2) > p > a
+{
+    color:rgb(47, 163, 209);
+}
+
+
+
+body > div.container > div > div.col-sm-8 > div:nth-child(4) > div
+{
+    flex-direction: row;
+    display: inline;
+}
+
+h5{
+    color: #333333;
+    font-family: 'Changa One', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+#underline_form {
+    background-color: rgb(49, 49, 49);
+
+}
+
+#underline_form > p
+{
+    color:rgb(199, 199, 199);
+    font-family:  Arial;
+    font-size: 12px;
+    border: 15px;
+    margin: 10px 0px;
+    font-weight: bold;
+}
