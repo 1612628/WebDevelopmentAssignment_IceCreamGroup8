@@ -1,0 +1,211 @@
+body {
+    margin: 0;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    color: #7C7C7C;
+}
+
+h2,
+h3,
+h4,
+legend,
+.title,
+.date{
+    color: #333333;
+    font-family: 'Changa One', cursive;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+}
+div{
+    font-family: 'Changa One', sans-serif;
+    color: #7C7C7C;
+}
+h2 {
+    font-size: 60px;
+    line-height: 60px;
+    color: #fff;
+    font-weight: 900;
+    letter-spacing: 1px;
+    padding-top: 110px;
+}
+
+h3 {
+    font-size: 60px;
+    line-height: 60px;
+    padding: 0 0 25px 0;
+}
+
+h4 {
+    font-size: 26px;
+    padding: 0 0 10px 0;
+}
+
+
+/* top menu */
+
+#menu li a {
+    font-family: 'Changa One', cursive;
+    color: #333333;
+    padding: 0 3em 0 0;
+    font-size: 16px;
+}
+
+#menu li a:hover,
+#menu li.active a {
+    background: none;
+    color: #2fa0d5;
+}
+
+
+/* social links */
+
+.social a {
+    display: inline-block;
+    margin-left: 5px;
+    font-size: 0px;
+    height: 25px;
+    width: 27px;
+    cursor: pointer;
+}
+
+.social a.twitter {
+    background: url(../images/twitter.png) 0 0 no-repeat;
+}
+
+.social a.twitter:hover {
+    background: url(../images/twitter_active.png) 0 0 no-repeat;
+}
+
+.social a.facebook {
+    background: url(../images/facebook.png) 0 0 no-repeat;
+}
+
+.social a.facebook:hover {
+    background: url(../images/facebook_active.png) 0 0 no-repeat;
+}
+
+
+#banner {
+    background: url(../images/bg_slider.gif) center bottom repeat;
+    text-align: center;
+    padding: 1em;
+}
+
+/* footer */
+footer {
+    background: url(../images/bg.gif) 0 center repeat;
+    color: #7c7c7c;
+}
+.text-white>.ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+.ul li{
+    float: left;
+    width: 131.06px;
+    height: 34px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+.text-white>.ul>li>a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 0px 90px 15px 0px;
+    font-weight: bold;
+    
+}
+.text-white>.ul>li.active>a{
+    text-decoration: none;
+    color: #fa97c2;
+    padding: 0px 90px 15px 0px;
+    font-weight: bold;
+}
+
+.text-white>.ul>li>a:hover{
+    text-decoration: none;
+    color: #fa97c2;
+}
+.text-white>.ul>li>a:active{
+    text-decoration: none;
+    color: #fa97c2;
+}
+.container-fluid>.container>.text-uppercase{
+    font-weight: bold;
+    color: #9ca4ab;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+.container-fluid>.container>.text-uppercase>a:first-child{
+    color: #272727;
+}
+.container-fluid>.container>.text-uppercase>a:last-child{
+    color: #9ca4ab;
+    font-weight: bold;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+/* Header  */
+.navbar-nav+.form-inline{
+    width: 169px;
+    height: 32px;
+    border-width: 1px;
+    padding: 4px 11px 6px 11px;
+    margin: 0px 10px 0px 10px;
+    border-style: solid;
+    border-radius: 12px;
+    border-color: #cecece;
+} 
+.form-inline > .input-group{
+    width: inherit;
+    height: inherit;
+} 
+.input-group-sm>.form-control:first-child {
+    position: absolute;
+    border: transparent;
+    padding: 0px;
+    margin-top: -2px;
+    width: 121px;
+    height: 26px;
+}
+.form-control + .input-group-append{
+    position: absolute;
+    right: 0px;
+}
+.input-group>.input-group-append>.input-group-text.btn {
+    border: transparent;
+    width: 20px;
+    height: 29px;
+    margin-top: -5px;
+    margin-right: 5px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    color: #73c926;
+    background-color: transparent;
+}
+/* Gallery */
+.container>.row>h6{
+    font-weight: bold;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+.filter-a{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    background: transparent;
+    border: 0;
+    color: #2fa0d5;
+    font-weight: bold;
+}
+.filter-a:hover{
+    text-decoration: none;
+}
+.selected{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    background: transparent;
+    border: 0;
+    color: #333333;
+    background-color: transparent;
+    font-weight: bold;
+}

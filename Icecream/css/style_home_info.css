@@ -1,0 +1,13 @@
+.container .badge{
+    border-radius: 2px;
+    height: 20px;
+    text-align: center;
+}
+.container .badge.badge-light{
+    border: 1px solid #c7c7c7;
+    width: 30px;
+    
+}
+.container.pt-5>div{
+    font-weight: 500;
+}
