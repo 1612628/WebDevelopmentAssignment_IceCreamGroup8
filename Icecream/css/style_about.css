@@ -226,9 +226,12 @@ footer {
 }
 
 .container>.row>.col-8>.row>.col-7>div:first-child,
-.col-4>.row>.col-8>div:first-child{
+.col-4>.row>.col-8>div>a:first-child{
     color: #333333;
     font-size: 25px;
+}
+.col-4>.row>.col-8>div>a:first-child:hover{
+    text-decoration: none;
 }
 .container>.row>.col-8>.row>.col-7>.pt-3,
 .container>.row>.col-4>.row>.col-8>.pt-3{

@@ -203,6 +203,10 @@ footer {
 #cat-ar {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     font-weight: bold;
+    color: #7c7c7c;
+}
+#cat-ar:hover{
+    text-decoration: none;
 }
 
 .comment,
@@ -234,3 +238,4 @@ div.col-7>div>a {
 .btn.active {
     color: #73c926;
 }
+
