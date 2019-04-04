@@ -374,7 +374,7 @@ legend{
     text-decoration: underline;
     font-weight: bold;
     color: #2A9FD8;
-    font-family: Open Sans;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 }
 .container.py-4>.row>.col.text-center>div,.container.py-4>.row>.col>div:last-child>div,
 .collapse>.navbar-nav>.nav-item>.nav-link,.container-fluid>.container>.row>.col-md-9>div>div{
