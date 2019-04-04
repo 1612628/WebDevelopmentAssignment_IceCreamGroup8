@@ -275,6 +275,9 @@ footer {
 .row>div.col>a:hover{
     text-decoration: none;
 }
+.row>div.col>a>div>p:first-child{
+    color: #333333
+}
 
 /* Footer */
 .text-white>.ul{
